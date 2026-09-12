@@ -1,0 +1,148 @@
+Using CATALINA_BASE:   "C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1"
+Using CATALINA_HOME:   "C:\Users\HP\Downloads\JAVA_25122\JAVA_25122\demo\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\temp"
+Using JRE_HOME:        "C:\Program Files\Java\jdk1.8.0_202\jre"
+Using CLASSPATH:       "C:\Users\HP\Downloads\JAVA_25122\JAVA_25122\demo\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;C:\Users\HP\Downloads\JAVA_25122\JAVA_25122\demo\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   ""
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/9.0.115
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 21 2026 08:17:26 UTC
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 9.0.115.0
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_202-b08
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\HP\Downloads\JAVA_25122\JAVA_25122\demo\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dnop
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dsun.io.useCanonCaches=false
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\HP\Downloads\JAVA_25122\JAVA_25122\demo\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+Apr 06, 2026 11:37:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\temp
+Apr 06, 2026 11:37:17 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+Apr 06, 2026 11:37:17 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Apr 06, 2026 11:37:17 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Apr 06, 2026 11:37:17 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+Apr 06, 2026 11:37:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Apr 06, 2026 11:37:18 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [2470] milliseconds
+Apr 06, 2026 11:37:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Apr 06, 2026 11:37:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.115]
+Apr 06, 2026 11:37:20 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [872] milliseconds.
+Apr 06, 2026 11:37:31 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 06, 2026 11:37:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Apr 06, 2026 11:37:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+[org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Apr 06 23:37:32 IST 2026]; root of context hierarchy
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [jdbc.properties]
+[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[com.timmy.websocket.WSServer] - Ã§Â«Â¯Ã¥Â�?Â£7788
+[com.timmy.serviceImpl.StartupAdminManagerCleanupService] - [STARTUP-ADMIN-CLEAN] background cleanup started.
+[org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 8692 ms
+[com.timmy.websocket.WSServer] - WebSocket server started on 0.0.0.0:7788
+[com.timmy.datasource.SqlServerAwareDataSource] - [SQLSERVER-AUTH] loaded native auth DLL: C:\Users\HP\Downloads\JAVA_25122\JAVA_25122\demo\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+Apr 06, 2026 11:37:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+[org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'dispatcher': initialization started
+[org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 06 23:37:40 IST 2026]; parent: Root WebApplicationContext
+[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from URL [file:/C:/Users/HP/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/FingerprintDeviceDemo/WEB-INF/classes/spring-mvc.xml]
+[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/getUserInfo],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getUserInfo(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/getAllLog],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getAllLog(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/getDeviceInfo],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getDeviceInfo(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/configureMasterDeviceSync],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.configureMasterDeviceSync(java.lang.String,boolean)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/setUsernameToDevice],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.setUsernameToDevice(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/masterDeviceSyncStatus],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.masterDeviceSyncStatus()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/getDeviceInOutMode],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getDeviceInOutMode(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncUsernameDeltaAllDevices],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncUsernameDeltaAllDevices()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/setDeviceInOutMode],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.setDeviceInOutMode(java.lang.String,java.lang.String,java.lang.Boolean)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/schedulerDailyStatus],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.schedulerDailyStatus(java.lang.Integer,java.lang.Integer,java.lang.Integer)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncUsersByDatabaseAllDevices],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncUsersByDatabaseAllDevices()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/climsRecords],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getAllClimsLogFromDB(java.lang.Integer,java.lang.String,java.lang.String,java.lang.Boolean)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/setUserToAllDevice],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.setUserToAllDevice()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/deletePersonFromDevice],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.deleteDeviceUserInfo(java.lang.Long,java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/schedulerStatusPage],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.timmy.controller.AllController.schedulerStatusPage()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncMasterDeviceFullToAll],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncMasterDeviceFullToAll(java.lang.String,boolean)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/emps],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getAllPersonFromDB(java.lang.Integer,java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/recordsLatest],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getLatestLogFromDB(java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Boolean)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncUserByDatabaseStatus],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncUserByDatabaseStatus(java.lang.Long)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/setUserToAllDeviceStatus],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.setUserToAllDeviceStatus()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncUsersStatusAllDevices],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncUsersStatusAllDevices()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncUsersStatusByUpdDateRangeAllDevices],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncUsersStatusByUpdDateRangeAllDevices(java.lang.String,java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncUsersStatusByUpdDateAllDevices],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncUsersStatusByUpdDateAllDevices(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncUsernameDeltaAllDevicesStatus],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncUsernameDeltaAllDevicesStatus()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncUsersDeleteByDelDateRangeAllDevices],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncUsersDeleteByDelDateRangeAllDevices(java.lang.String,java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncUsersByDatabaseAllDevicesStatus],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncUsersByDatabaseAllDevicesStatus()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncInactiveUsersDisableAllDevices],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncInactiveUsersDisableAllDevices()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/syncUsersDeleteByDelDateAllDevices],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.syncUsersDeleteByDelDateAllDevices(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/hello1],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.timmy.controller.AllController.hello()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/enrollInfo],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getAllEnrollInfo()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/sendWs],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.sendWs(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/updateDataPage],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.timmy.controller.AllController.updateDataPage()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/addPerson],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.addPerson(com.timmy.entity.PersonTemp,org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/climsRecordsPage],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.timmy.controller.AllController.climsRecordsPage()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/savePerson],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.savePerson(com.timmy.entity.PersonTemp,org.springframework.web.multipart.MultipartFile,java.lang.String,java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/device],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getAllDevice()
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/personDetail],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.personDetail(java.lang.Long)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/sendGetUserInfo],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.sendGetUserInfo(int,int,java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/synchronizeTime],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.synchronizeTime(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/setPersonToDevice],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.sendSetUserInfo(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/getNewLog],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getNewLog(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/geUSerLock],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getUserLock(java.lang.Integer,java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/cleanAdmin],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.cleanAdmin(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/setUserEnable],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.setUserEnable(java.lang.Long,java.lang.Integer,java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/getDevLock],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getDevLock(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/openDoor],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.openDoor(int,java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/initSystem],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.initSystem(java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/records],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.getAllLogFromDB(java.lang.Integer,java.lang.String,java.lang.Boolean)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/setOneUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.timmy.entity.Msg com.timmy.controller.AllController.setOneUserTo(java.lang.Long,int,java.lang.String)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.timmy.controller.AuthController.loginPage(javax.servlet.http.HttpSession)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.timmy.controller.AuthController.logout(javax.servlet.http.HttpSession)
+[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.timmy.controller.AuthController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+[com.timmy.serviceImpl.StartupAdminManagerCleanupService] - [STARTUP-ADMIN-CLEAN] step 'reset-db-admin' skipped due to error: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (This driver is not configured for integrated authentication. ClientConnectionId:38a89041-8872-418c-9204-0a75196c6b1f)
+[com.timmy.serviceImpl.StartupAdminManagerCleanupService] - [STARTUP-ADMIN-CLEAN] step 'delete-pending-admin-setuserinfo' skipped due to error: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (This driver is not configured for integrated authentication. ClientConnectionId:07c07eac-df7b-4853-8b1b-70cdddf6e61e)
+[com.timmy.serviceImpl.StartupAdminManagerCleanupService] - [STARTUP-ADMIN-CLEAN] step 'queue-cleanadmin' skipped due to error: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (This driver is not configured for integrated authentication. ClientConnectionId:4705b5d7-acd9-419a-b9d2-f9162ef82f49)
+[com.timmy.serviceImpl.StartupAdminManagerCleanupService] - [STARTUP-ADMIN-CLEAN] completed | db_admin_rows_reset=-1 | pending_admin_setuserinfo_removed=-1 | cleanadmin_queued_devices=-1
+[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'dispatcher': initialization completed in 4042 ms
+Apr 06, 2026 11:37:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Apr 06, 2026 11:37:44 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [25795] milliseconds

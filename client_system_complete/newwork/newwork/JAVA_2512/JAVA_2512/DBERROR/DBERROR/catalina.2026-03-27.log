@@ -1,0 +1,152 @@
+27-Mar-2026 11:55:46.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+27-Mar-2026 11:55:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+27-Mar-2026 11:55:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+27-Mar-2026 11:55:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Mar-2026 11:55:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Mar-2026 11:55:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Mar-2026 11:55:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\jre
+27-Mar-2026 11:55:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+27-Mar-2026 11:55:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Mar-2026 11:55:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 11:55:46.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 11:55:46.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+27-Mar-2026 11:55:46.617 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+27-Mar-2026 11:55:46.617 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Mar-2026 11:55:46.617 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Mar-2026 11:55:46.632 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+27-Mar-2026 11:55:46.960 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Mar-2026 11:55:46.977 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [571] milliseconds
+27-Mar-2026 11:55:48.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+27-Mar-2026 11:55:48.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+27-Mar-2026 11:55:48.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+27-Mar-2026 11:55:48.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Mar-2026 11:55:48.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Mar-2026 11:55:48.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Mar-2026 11:55:48.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\jre
+27-Mar-2026 11:55:48.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+27-Mar-2026 11:55:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Mar-2026 11:55:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 11:55:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 11:55:48.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+27-Mar-2026 11:55:48.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2026 11:55:48.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+27-Mar-2026 11:55:48.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+27-Mar-2026 11:55:48.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2026 11:55:48.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2026 11:55:48.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+27-Mar-2026 11:55:48.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+27-Mar-2026 11:55:48.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+27-Mar-2026 11:55:48.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Mar-2026 11:55:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 11:55:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 11:55:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+27-Mar-2026 11:55:48.130 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+27-Mar-2026 11:55:48.130 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Mar-2026 11:55:48.130 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Mar-2026 11:55:48.148 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+27-Mar-2026 11:55:48.456 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Mar-2026 11:55:48.471 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [532] milliseconds
+27-Mar-2026 11:55:48.510 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Mar-2026 11:55:48.510 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+27-Mar-2026 11:55:48.541 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war]
+27-Mar-2026 11:55:54.091 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Mar-2026 11:55:59.942 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war] has finished in [11,400] ms
+27-Mar-2026 11:55:59.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs]
+27-Mar-2026 11:56:00.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs] has finished in [65] ms
+27-Mar-2026 11:56:00.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples]
+27-Mar-2026 11:56:00.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples] has finished in [652] ms
+27-Mar-2026 11:56:00.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager]
+27-Mar-2026 11:56:00.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager] has finished in [56] ms
+27-Mar-2026 11:56:00.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager]
+27-Mar-2026 11:56:00.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager] has finished in [79] ms
+27-Mar-2026 11:56:00.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT]
+27-Mar-2026 11:56:00.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT] has finished in [48] ms
+27-Mar-2026 11:56:00.850 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2026 11:56:00.866 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12394] milliseconds
+27-Mar-2026 11:56:01.290 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+27-Mar-2026 15:53:46.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+27-Mar-2026 15:53:47.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+27-Mar-2026 15:53:47.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+27-Mar-2026 15:53:47.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Mar-2026 15:53:47.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Mar-2026 15:53:47.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Mar-2026 15:53:47.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\jre
+27-Mar-2026 15:53:47.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+27-Mar-2026 15:53:47.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Mar-2026 15:53:47.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 15:53:47.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 15:53:47.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+27-Mar-2026 15:53:47.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2026 15:53:47.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+27-Mar-2026 15:53:47.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+27-Mar-2026 15:53:47.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2026 15:53:47.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2026 15:53:47.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+27-Mar-2026 15:53:47.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Mar-2026 15:53:47.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 15:53:47.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 15:53:47.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+27-Mar-2026 15:53:47.184 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+27-Mar-2026 15:53:47.184 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Mar-2026 15:53:47.184 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Mar-2026 15:53:47.198 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+27-Mar-2026 15:53:48.146 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Mar-2026 15:53:48.172 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1679] milliseconds
+27-Mar-2026 15:53:49.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+27-Mar-2026 15:53:49.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+27-Mar-2026 15:53:49.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+27-Mar-2026 15:53:49.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Mar-2026 15:53:49.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Mar-2026 15:53:49.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Mar-2026 15:53:49.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\jre
+27-Mar-2026 15:53:49.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+27-Mar-2026 15:53:49.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Mar-2026 15:53:49.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 15:53:49.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 15:53:49.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+27-Mar-2026 15:53:49.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2026 15:53:49.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+27-Mar-2026 15:53:49.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+27-Mar-2026 15:53:49.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2026 15:53:49.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2026 15:53:49.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+27-Mar-2026 15:53:49.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+27-Mar-2026 15:53:49.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+27-Mar-2026 15:53:49.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Mar-2026 15:53:49.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 15:53:49.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+27-Mar-2026 15:53:49.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+27-Mar-2026 15:53:49.383 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+27-Mar-2026 15:53:49.383 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Mar-2026 15:53:49.383 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Mar-2026 15:53:49.396 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+27-Mar-2026 15:53:49.720 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Mar-2026 15:53:49.742 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [547] milliseconds
+27-Mar-2026 15:53:49.839 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Mar-2026 15:53:49.839 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+27-Mar-2026 15:53:49.981 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war]
+27-Mar-2026 15:53:57.146 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Mar-2026 15:54:04.861 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war] has finished in [14,879] ms
+27-Mar-2026 15:54:04.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs]
+27-Mar-2026 15:54:05.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs] has finished in [161] ms
+27-Mar-2026 15:54:05.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples]
+27-Mar-2026 15:54:14.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples] has finished in [9,709] ms
+27-Mar-2026 15:54:14.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager]
+27-Mar-2026 15:54:14.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager] has finished in [201] ms
+27-Mar-2026 15:54:14.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager]
+27-Mar-2026 15:54:15.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager] has finished in [187] ms
+27-Mar-2026 15:54:15.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT]
+27-Mar-2026 15:54:15.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\PVUNL\Downloads\FingerprintClient_IDSL_DEVICEFIX_datasync\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT] has finished in [103] ms
+27-Mar-2026 15:54:15.234 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2026 15:54:15.261 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [25517] milliseconds
+27-Mar-2026 15:54:15.770 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received

@@ -1,0 +1,335 @@
+[04-04-2026 16:52:30.99] ========== START REQUEST ==========
+[04-04-2026 16:52:31.03] JAVA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+[04-04-2026 16:52:31.04] CATALINA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+[04-04-2026 16:52:31.07] JAVA_OPTS=-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+04-Apr-2026 16:52:33.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+04-Apr-2026 16:52:33.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+04-Apr-2026 16:52:33.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+04-Apr-2026 16:52:33.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Apr-2026 16:52:33.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Apr-2026 16:52:33.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Apr-2026 16:52:33.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+04-Apr-2026 16:52:33.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+04-Apr-2026 16:52:33.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Apr-2026 16:52:33.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+04-Apr-2026 16:52:33.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+04-Apr-2026 16:52:33.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+04-Apr-2026 16:52:33.705 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+04-Apr-2026 16:52:33.705 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+04-Apr-2026 16:52:33.705 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-Apr-2026 16:52:33.722 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+04-Apr-2026 16:52:34.318 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Apr-2026 16:52:34.349 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1125] milliseconds
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+[04-04-2026 17:57:33.43] ========== START REQUEST ==========
+[04-04-2026 17:57:33.49] JAVA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+[04-04-2026 17:57:33.51] CATALINA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+[04-04-2026 17:57:33.54] JAVA_OPTS=-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+04-Apr-2026 17:57:35.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+04-Apr-2026 17:57:35.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+04-Apr-2026 17:57:35.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+04-Apr-2026 17:57:35.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Apr-2026 17:57:35.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Apr-2026 17:57:35.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Apr-2026 17:57:35.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+04-Apr-2026 17:57:35.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+04-Apr-2026 17:57:35.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Apr-2026 17:57:35.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+04-Apr-2026 17:57:35.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+04-Apr-2026 17:57:35.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+04-Apr-2026 17:57:35.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2026 17:57:35.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+04-Apr-2026 17:57:35.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+04-Apr-2026 17:57:35.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2026 17:57:35.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2026 17:57:35.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+04-Apr-2026 17:57:35.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Apr-2026 17:57:35.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+04-Apr-2026 17:57:35.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+04-Apr-2026 17:57:35.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+04-Apr-2026 17:57:35.733 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+04-Apr-2026 17:57:35.733 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+04-Apr-2026 17:57:35.734 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-Apr-2026 17:57:35.752 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+04-Apr-2026 17:57:36.331 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Apr-2026 17:57:36.350 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:984)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:687)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:710)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Unknown Source)
+		at sun.nio.ch.Net.bind(Unknown Source)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:251)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1497)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1510)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:667)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 13 more
+04-Apr-2026 17:57:36.352 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1056] milliseconds
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+[05-04-2026 17:47:43.55] ========== START REQUEST ==========
+[05-04-2026 17:47:43.60] JAVA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+[05-04-2026 17:47:43.62] CATALINA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+[05-04-2026 17:47:43.63] JAVA_OPTS=-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+[05-04-2026 17:47:43.65] SCHEDULER_CRON=0 0 17 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 17:47:43.66] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+05-Apr-2026 17:47:46.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+05-Apr-2026 17:47:46.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+05-Apr-2026 17:47:46.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+05-Apr-2026 17:47:46.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Apr-2026 17:47:46.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Apr-2026 17:47:46.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Apr-2026 17:47:46.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+05-Apr-2026 17:47:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+05-Apr-2026 17:47:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Apr-2026 17:47:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 17:47:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 17:47:46.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+05-Apr-2026 17:47:46.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Apr-2026 17:47:46.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+05-Apr-2026 17:47:46.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+05-Apr-2026 17:47:46.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Apr-2026 17:47:46.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Apr-2026 17:47:46.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Apr-2026 17:47:46.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Apr-2026 17:47:46.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 17:47:46.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 17:47:46.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+05-Apr-2026 17:47:47.034 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+05-Apr-2026 17:47:47.034 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+05-Apr-2026 17:47:47.034 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+05-Apr-2026 17:47:47.052 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+05-Apr-2026 17:47:47.946 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Apr-2026 17:47:47.983 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1473] milliseconds
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+[05-04-2026 17:57:13.18] ========== START REQUEST ==========
+[05-04-2026 17:57:13.22] JAVA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+[05-04-2026 17:57:13.25] CATALINA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+[05-04-2026 17:57:13.27] JAVA_OPTS=-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll -Ddevice.delta.sync.scheduler.cron=0 0 17 * * * -Ddevice.delta.sync.scheduler.zone=Asia/Kolkata
+[05-04-2026 17:57:13.29] SCHEDULER_CRON=0 0 17 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 17:57:13.31] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll -Ddevice.delta.sync.scheduler.cron=0 0 17 * * * -Ddevice.delta.sync.scheduler.zone=Asia/Kolkata"
+Error: Could not find or load main class 0
+[05-04-2026 17:57:14.20] ERROR: catalina configtest failed.
+[05-04-2026 17:57:50.28] ========== START REQUEST ==========
+[05-04-2026 17:57:50.33] JAVA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+[05-04-2026 17:57:50.35] CATALINA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+[05-04-2026 17:57:50.37] JAVA_OPTS=-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll ""-Ddevice.delta.sync.scheduler.cron=0 0 17 * * *"" ""-Ddevice.delta.sync.scheduler.zone=Asia/Kolkata""
+[05-04-2026 17:57:50.39] SCHEDULER_CRON=0 0 17 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 17:57:50.41] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll ""-Ddevice.delta.sync.scheduler.cron=0 0 17 * * *"" ""-Ddevice.delta.sync.scheduler.zone=Asia/Kolkata"""
+Error: Could not find or load main class 0
+[05-04-2026 17:57:51.25] ERROR: catalina configtest failed.
+[05-04-2026 17:58:11.86] ========== START REQUEST ==========
+[05-04-2026 17:58:11.90] JAVA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+[05-04-2026 17:58:11.92] CATALINA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+[05-04-2026 17:58:11.94] JAVA_OPTS=-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+[05-04-2026 17:58:11.95] SCHEDULER_CRON=0 0 17 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 17:58:11.97] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+05-Apr-2026 17:58:13.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+05-Apr-2026 17:58:13.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+05-Apr-2026 17:58:13.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+05-Apr-2026 17:58:13.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Apr-2026 17:58:13.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Apr-2026 17:58:13.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Apr-2026 17:58:13.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+05-Apr-2026 17:58:13.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+05-Apr-2026 17:58:13.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Apr-2026 17:58:13.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 17:58:13.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 17:58:13.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+05-Apr-2026 17:58:13.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Apr-2026 17:58:13.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+05-Apr-2026 17:58:13.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+05-Apr-2026 17:58:13.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Apr-2026 17:58:13.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Apr-2026 17:58:13.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Apr-2026 17:58:13.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Apr-2026 17:58:13.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 17:58:13.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 17:58:13.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+05-Apr-2026 17:58:13.371 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+05-Apr-2026 17:58:13.371 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+05-Apr-2026 17:58:13.371 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+05-Apr-2026 17:58:13.390 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+05-Apr-2026 17:58:13.818 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Apr-2026 17:58:13.842 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [768] milliseconds
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+[05-04-2026 18:03:10.68] ========== START REQUEST ==========
+[05-04-2026 18:03:10.72] JAVA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+[05-04-2026 18:03:10.74] CATALINA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+[05-04-2026 18:03:10.76] JAVA_OPTS=-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+[05-04-2026 18:03:10.78] SCHEDULER_CRON=0 * * * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 18:03:10.80] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+05-Apr-2026 18:03:12.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+05-Apr-2026 18:03:12.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+05-Apr-2026 18:03:12.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+05-Apr-2026 18:03:12.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Apr-2026 18:03:12.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Apr-2026 18:03:12.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Apr-2026 18:03:12.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+05-Apr-2026 18:03:12.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+05-Apr-2026 18:03:12.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Apr-2026 18:03:12.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 18:03:12.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 18:03:12.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+05-Apr-2026 18:03:12.118 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+05-Apr-2026 18:03:12.118 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+05-Apr-2026 18:03:12.119 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+05-Apr-2026 18:03:12.136 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+05-Apr-2026 18:03:12.529 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Apr-2026 18:03:12.553 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [721] milliseconds
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+[05-04-2026 18:22:38.85] ========== START REQUEST ==========
+[05-04-2026 18:22:38.90] JAVA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+[05-04-2026 18:22:38.92] CATALINA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+[05-04-2026 18:22:38.93] JAVA_OPTS=-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+[05-04-2026 18:22:38.95] SCHEDULER_CRON=0 * * * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 18:22:38.97] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[05-04-2026 18:22:39.10] Existing Tomcat instance detected. Running stop-tomcat.cmd before startup.
+[05-04-2026 18:22:39.15] ========== STOP REQUEST ==========
+[05-04-2026 18:22:40.32] shutdown attempt 1 exit=
+[05-04-2026 18:22:40.33] shutdown attempt 1 exit=0
+[05-04-2026 18:22:40.42] Tomcat shutdown port closed.
+[05-04-2026 18:22:54.80] WARN: Ports still busy after stop script. Forcing cleanup by PID.
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"
+05-Apr-2026 18:22:56.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+05-Apr-2026 18:22:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+05-Apr-2026 18:22:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+05-Apr-2026 18:22:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Apr-2026 18:22:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Apr-2026 18:22:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Apr-2026 18:22:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+05-Apr-2026 18:22:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+05-Apr-2026 18:22:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Apr-2026 18:22:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 18:22:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 18:22:56.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+05-Apr-2026 18:22:56.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Apr-2026 18:22:56.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+05-Apr-2026 18:22:56.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+05-Apr-2026 18:22:56.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Apr-2026 18:22:56.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Apr-2026 18:22:56.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Apr-2026 18:22:56.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Apr-2026 18:22:56.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 18:22:56.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+05-Apr-2026 18:22:56.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+05-Apr-2026 18:22:56.486 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+05-Apr-2026 18:22:56.486 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+05-Apr-2026 18:22:56.486 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+05-Apr-2026 18:22:56.507 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+05-Apr-2026 18:22:57.004 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Apr-2026 18:22:57.032 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [894] milliseconds
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll"

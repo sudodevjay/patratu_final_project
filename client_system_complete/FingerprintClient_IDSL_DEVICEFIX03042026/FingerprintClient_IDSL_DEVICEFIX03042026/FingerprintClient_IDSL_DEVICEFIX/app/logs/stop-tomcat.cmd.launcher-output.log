@@ -1,0 +1,11 @@
+[03-04-2026 20:31:44.65] ========== STOP REQUEST ==========
+[03-04-2026 20:31:47.18] shutdown attempt 1 exit=
+[03-04-2026 20:31:47.18] shutdown attempt 1 exit=0
+[03-04-2026 20:31:47.21] Tomcat shutdown port closed.
+[03-04-2026 20:45:55.53] ========== STOP REQUEST ==========
+[03-04-2026 20:45:57.91] shutdown attempt 1 exit=1
+[03-04-2026 20:45:57.93] Tomcat shutdown port closed.
+[05-04-2026 18:37:05.24] ========== STOP REQUEST ==========
+[05-04-2026 18:37:06.04] Killed PID 16692 on port 8080
+[05-04-2026 18:37:06.27] WARN: Failed to kill PID 16692 on port 8080
+[05-04-2026 18:38:09.87] Tomcat process stopped.

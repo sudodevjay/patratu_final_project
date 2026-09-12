@@ -1,0 +1,3 @@
+time=2026-04-04 17:11:09.494, source=senduser, device=AXTI11107143, enrollid=399816, name=SOHEL KUMAR, admin=0, backupnum=50, record_size=49556, image_path=
+time=2026-04-04 17:11:09.919, source=senduser, device=AXTI11107143, enrollid=156659, name=DEEPAK KUMAR YADAV, admin=0, backupnum=10, record_size=1, image_path=
+time=2026-04-04 17:11:10.252, source=senduser, device=AXTI11107143, enrollid=156659, name=DEEPAK KUMAR YADAV, admin=0, backupnum=50, record_size=47584, image_path=
