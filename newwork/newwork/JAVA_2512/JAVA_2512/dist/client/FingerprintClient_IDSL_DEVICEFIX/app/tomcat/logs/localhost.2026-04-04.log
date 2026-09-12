@@ -1,0 +1,16 @@
+04-Apr-2026 16:52:45.913 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Apr-2026 16:52:46.140 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Apr-2026 16:52:51.824 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+04-Apr-2026 16:52:54.667 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+04-Apr-2026 16:52:54.667 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+04-Apr-2026 16:52:54.672 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7a2b3cfd')
+04-Apr-2026 16:55:58.634 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+04-Apr-2026 16:55:58.634 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+04-Apr-2026 16:55:58.640 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+04-Apr-2026 16:55:58.704 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Apr-2026 17:57:44.544 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Apr-2026 17:57:44.779 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Apr-2026 17:57:49.100 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+04-Apr-2026 17:57:51.690 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+04-Apr-2026 17:57:51.690 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+04-Apr-2026 17:57:51.692 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@e0c03bd')

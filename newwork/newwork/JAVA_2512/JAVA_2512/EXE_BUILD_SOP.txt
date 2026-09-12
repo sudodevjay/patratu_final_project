@@ -1,0 +1,88 @@
+Fingerprint Client EXE Build SOP (Same-to-Same)
+Project: JAVA_2512
+App Name: FingerprintClient_IDSL_DEVICEFIX
+
+==================================================
+1) Build prerequisites (must exist on build PC)
+==================================================
+- Tomcat source folder:
+  C:\Users\HP\Downloads\apache-tomcat-9.0.115-windows-x64 (1)\apache-tomcat-9.0.115
+- Bundled JRE 8:
+  C:\Program Files\Java\jre1.8.0_202
+- SQL Server native auth DLL (x64):
+  C:\Users\HP\Downloads\sqljdbc_13.2.1.0_enu\sqljdbc_13.2\enu\auth\x64\mssql-jdbc_auth-13.2.1.x64.dll
+- JDK 17 with jpackage/javac
+- JDK 8 jar tool (or compatible jar)
+
+Note:
+- Build script hard-check karta hai ki mssql-jdbc_auth-*.x64.dll final package me ho.
+- Agar DLL missing hoga to build fail hoga (broken package generate nahi hoga).
+
+==================================================
+2) Open terminal at project root
+==================================================
+cd C:\Users\HP\Desktop\JAVA_2512_working\JAVA_2512
+
+==================================================
+3) Stop old running packaged Java (important)
+==================================================
+if (Test-Path .\dist\client\FingerprintClient_IDSL_DEVICEFIX\FingerprintClient_IDSL_DEVICEFIX.exe) {
+  .\dist\client\FingerprintClient_IDSL_DEVICEFIX\FingerprintClient_IDSL_DEVICEFIX.exe --stop
+}
+Start-Sleep -Seconds 3
+Get-CimInstance Win32_Process -Filter "name='java.exe'" |
+  Where-Object { $_.ExecutablePath -like '*FingerprintClient_IDSL_DEVICEFIX*' } |
+  ForEach-Object { Stop-Process -Id $_.ProcessId -Force }
+
+==================================================
+4) Build command (single source of truth)
+==================================================
+powershell -ExecutionPolicy Bypass -File .\packaging\build_client_exe.ps1
+
+==================================================
+5) Expected output structure (must match)
+==================================================
+dist\client\FingerprintClient_IDSL_DEVICEFIX
+dist\client\FingerprintClient_IDSL_DEVICEFIX.zip
+
+Not expected:
+- dist\client-build-FingerprintClient_IDSL_DEVICEFIX (legacy, auto-cleaned)
+
+==================================================
+6) Mandatory post-build checks
+==================================================
+Check output:
+Get-ChildItem .\dist\client
+
+Check SQL auth DLL inside final ZIP:
+tar -tf .\dist\client\FingerprintClient_IDSL_DEVICEFIX.zip | findstr /I "mssql-jdbc_auth-13.2.1.x64.dll"
+
+Optional hash:
+Get-FileHash .\dist\client\FingerprintClient_IDSL_DEVICEFIX.zip -Algorithm SHA256
+
+==================================================
+7) Client deployment rules (very important)
+==================================================
+- Client ko sirf EXE file mat bhejo.
+- Sirf ZIP bhejo: dist\client\FingerprintClient_IDSL_DEVICEFIX.zip
+- Client full ZIP extract kare.
+- EXE extracted folder ke andar se run kare:
+  FingerprintClient_IDSL_DEVICEFIX\FingerprintClient_IDSL_DEVICEFIX.exe
+
+==================================================
+8) If client says "opens then closes" collect these logs
+==================================================
+FingerprintClient_IDSL_DEVICEFIX\app\logs\launcher.log
+FingerprintClient_IDSL_DEVICEFIX\app\logs\start-tomcat.log
+FingerprintClient_IDSL_DEVICEFIX\app\logs\stop-tomcat.log
+FingerprintClient_IDSL_DEVICEFIX\app\tomcat\logs\catalina*.log
+
+==================================================
+9) Advanced (if path changes on another build PC)
+==================================================
+You can override paths in build command:
+powershell -ExecutionPolicy Bypass -File .\packaging\build_client_exe.ps1 `
+  -TomcatHome "D:\path\apache-tomcat-9.0.115" `
+  -BundledJreHome "D:\path\jre1.8.0_202" `
+  -SqlAuthDllPath "D:\path\mssql-jdbc_auth-13.2.1.x64.dll"
+

@@ -1,0 +1,2 @@
+time=2026-04-07 06:22:26.365, source=senduser, device=AXTI11107145, enrollid=604022, name=BANDHAN, admin=0, backupnum=50, record_size=85292, image_path=
+time=2026-04-07 06:22:55.358, source=senduser, device=AXTI11107145, enrollid=1178478, name=PANKAJ, admin=0, backupnum=50, record_size=64164, image_path=

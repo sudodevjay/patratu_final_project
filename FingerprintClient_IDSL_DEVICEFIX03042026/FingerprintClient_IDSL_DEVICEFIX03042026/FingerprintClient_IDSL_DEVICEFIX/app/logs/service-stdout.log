@@ -1,0 +1,563 @@
+[04-04-2026 10:12:23.50] ========== SERVICE START ==========
+[04-04-2026 10:12:23.51] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:12:23.52] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[04-04-2026 10:12:23.53] Running pre-clean stop sequence.
+[04-04-2026 10:12:38.76] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:12:38.85] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:14:58.29] ========== SERVICE START ==========
+[04-04-2026 10:14:58.30] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:14:58.31] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[04-04-2026 10:14:58.33] Running pre-clean stop sequence.
+[04-04-2026 10:15:13.55] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:15:13.62] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:15:36.60] catalina run exited with code 1
+[04-04-2026 10:15:38.67] ========== SERVICE START ==========
+[04-04-2026 10:15:38.68] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:15:38.69] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[04-04-2026 10:15:38.71] Running pre-clean stop sequence.
+[04-04-2026 10:15:53.91] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:15:53.99] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:16:17.72] ========== SERVICE START ==========
+[04-04-2026 10:16:17.74] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:16:17.76] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[04-04-2026 10:16:17.77] Running pre-clean stop sequence.
+[04-04-2026 10:16:32.94] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:16:33.01] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:18:33.34] ========== SERVICE START ==========
+[04-04-2026 10:18:33.36] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:18:33.37] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[04-04-2026 10:18:33.38] Running pre-clean stop sequence.
+[04-04-2026 10:18:51.20] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:18:51.30] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:21:17.71] ========== SERVICE START ==========
+[04-04-2026 10:21:17.73] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:21:17.73] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[04-04-2026 10:21:17.74] Running pre-clean stop sequence.
+[04-04-2026 10:21:34.37] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:21:34.44] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:22:53.06] ========== SERVICE START ==========
+[04-04-2026 10:22:53.07] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:22:53.08] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[04-04-2026 10:22:53.09] Running pre-clean stop sequence.
+[04-04-2026 10:23:08.04] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:23:08.11] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:24:28.18] ========== SERVICE START ==========
+[04-04-2026 10:24:28.18] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:24:28.18] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[04-04-2026 10:24:28.20] Running pre-clean stop sequence.
+[04-04-2026 10:24:45.73] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:24:45.82] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:26:36.39] catalina run exited with code 1
+[04-04-2026 10:26:38.46] ========== SERVICE START ==========
+[04-04-2026 10:26:38.47] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:26:38.48] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[04-04-2026 10:26:38.49] Running pre-clean stop sequence.
+[04-04-2026 10:26:55.28] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:26:55.34] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:27:24.18] catalina run exited with code 
+[04-04-2026 10:27:24.19] catalina run exited with code 0
+[04-04-2026 10:27:26.25] ========== SERVICE START ==========
+[04-04-2026 10:27:26.26] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:27:26.27] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+[04-04-2026 10:27:26.28] Running pre-clean stop sequence.
+[04-04-2026 10:27:41.36] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:27:41.54] Killed PID 14816 on port 8080
+[04-04-2026 10:27:41.65] Killed PID 14816 on port 8080
+[04-04-2026 10:27:41.68] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:40:11.53] ========== SERVICE START ==========
+[04-04-2026 10:40:11.54] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:40:11.55] HTTP_PORT=8080 SHUTDOWN_PORT=18015 DB_PORT=1433
+[04-04-2026 10:40:11.57] Running pre-clean stop sequence.
+[04-04-2026 10:40:29.45] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:40:29.53] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 10:40:29.55] Port 1433 is ready.
+[04-04-2026 10:40:29.56] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 10:48:13.52] ========== SERVICE START ==========
+[04-04-2026 10:48:13.53] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 10:48:13.54] HTTP_PORT=8080 SHUTDOWN_PORT=18015 DB_PORT=1433
+[04-04-2026 10:48:13.55] Running pre-clean stop sequence.
+[04-04-2026 10:48:28.83] WARN: Ports still busy after stop script. Forcing cleanup.
+[04-04-2026 10:48:28.91] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 10:48:28.93] Port 1433 is ready.
+[04-04-2026 10:48:28.94] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 15:32:15.09] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 15:32:15.10] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 18:46:39.90] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 18:46:39.92] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 18:46:39.94] SCHEDULER_CRON=0 30 18 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 18:48:13.91] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 18:48:15.33] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 18:48:15.35] ERROR: SQL port 1433 did not open in time. Exiting to allow NSSM retry.
+[04-04-2026 18:48:18.61] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 18:48:18.63] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 18:48:18.65] SCHEDULER_CRON=0 30 18 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 18:53:23.51] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 18:53:23.56] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 18:53:23.58] SCHEDULER_CRON=0 0 19 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 18:54:49.46] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 18:54:50.83] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 18:54:50.84] ERROR: SQL port 1433 did not open in time. Exiting to allow NSSM retry.
+[04-04-2026 18:54:54.21] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 18:54:54.22] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 18:54:54.25] SCHEDULER_CRON=0 0 19 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 18:56:19.12] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 18:56:21.29] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 18:56:21.31] ERROR: SQL port 1433 did not open in time. Exiting to allow NSSM retry.
+[04-04-2026 18:56:24.68] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 18:56:24.70] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 18:56:24.72] SCHEDULER_CRON=0 0 19 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 18:57:52.11] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 18:57:53.95] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 18:57:54.02] Port 1433 is ready.
+[04-04-2026 18:57:54.04] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[04-04-2026 18:57:54.06] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 18:57:57.30] ========== SERVICE START ==========
+[04-04-2026 18:57:57.32] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 18:57:57.33] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 18:57:57.35] SCHEDULER_CRON=0 0 19 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 18:57:57.37] Running pre-clean stop sequence.
+[04-04-2026 19:06:32.01] ========== SERVICE START ==========
+[04-04-2026 19:06:32.01] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 19:06:32.01] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 19:06:32.02] SCHEDULER_CRON=0 0 19 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 19:06:32.02] Running pre-clean stop sequence.
+[04-04-2026 19:07:44.56] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 19:07:45.58] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 19:07:45.64] Port 1433 is ready.
+[04-04-2026 19:07:45.65] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[04-04-2026 19:07:45.66] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 19:15:56.13] ========== SERVICE START ==========
+[04-04-2026 19:15:56.14] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 19:15:56.15] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 19:15:56.16] SCHEDULER_CRON=0 20 19 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 19:15:56.17] Running pre-clean stop sequence.
+[04-04-2026 19:17:15.31] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 19:17:16.37] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 19:17:16.43] Port 1433 is ready.
+[04-04-2026 19:17:16.44] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[04-04-2026 19:17:16.45] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 19:25:37.75] ========== SERVICE START ==========
+[04-04-2026 19:25:37.76] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 19:25:37.77] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 19:25:37.79] SCHEDULER_CRON=0 30 19 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 19:25:37.80] Running pre-clean stop sequence.
+[04-04-2026 19:26:51.68] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 19:26:52.68] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 19:26:52.74] Port 1433 is ready.
+[04-04-2026 19:26:52.75] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[04-04-2026 19:26:52.76] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 19:41:04.70] ========== SERVICE START ==========
+[04-04-2026 19:41:04.71] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 19:41:04.72] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 19:41:04.74] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 19:41:04.75] Running pre-clean stop sequence.
+[04-04-2026 19:42:19.66] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 19:42:20.66] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 19:42:20.72] Port 1433 is ready.
+[04-04-2026 19:42:20.73] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[04-04-2026 19:42:20.74] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 19:44:59.26] ========== SERVICE START ==========
+[04-04-2026 19:44:59.27] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 19:44:59.28] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 19:44:59.30] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 19:44:59.31] Running pre-clean stop sequence.
+[04-04-2026 19:46:13.76] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 19:46:14.74] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 19:46:14.80] Port 1433 is ready.
+[04-04-2026 19:46:14.81] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[04-04-2026 19:46:14.82] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 19:50:39.04] ========== SERVICE START ==========
+[04-04-2026 19:50:39.06] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 19:50:39.07] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 19:50:39.10] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 19:50:39.12] Running pre-clean stop sequence.
+[04-04-2026 19:51:55.20] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 19:51:56.17] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 19:51:56.22] Port 1433 is ready.
+[04-04-2026 19:51:56.23] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[04-04-2026 19:51:56.24] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 20:32:03.97] ========== SERVICE START ==========
+[04-04-2026 20:32:03.98] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 20:32:03.99] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 20:32:04.01] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 20:32:04.02] Running pre-clean stop sequence.
+[04-04-2026 20:33:20.04] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 20:33:21.02] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 20:33:21.07] Port 1433 is ready.
+[04-04-2026 20:33:21.08] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[04-04-2026 20:33:21.09] Starting Tomcat in foreground (catalina.bat run).
+[04-04-2026 20:39:10.68] ========== SERVICE START ==========
+[04-04-2026 20:39:10.70] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[04-04-2026 20:39:10.71] HTTP_PORT=8080 DB_PORT=1433
+[04-04-2026 20:39:10.73] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[04-04-2026 20:39:10.74] Running pre-clean stop sequence.
+[04-04-2026 20:40:29.25] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[04-04-2026 20:40:30.34] Waiting for SQL Server listener on 1433 before Tomcat start.
+[04-04-2026 20:40:30.41] Port 1433 is ready.
+[04-04-2026 20:40:30.42] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[04-04-2026 20:40:30.43] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 11:03:16.47] ========== SERVICE START ==========
+[05-04-2026 11:03:16.49] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 11:03:16.51] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 11:03:16.55] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 11:03:16.57] Running pre-clean stop sequence.
+[05-04-2026 11:04:40.48] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 11:04:41.82] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 11:04:41.91] Port 1433 is ready.
+[05-04-2026 11:04:41.92] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 11:04:41.94] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 12:09:53.24] ========== SERVICE START ==========
+[05-04-2026 12:09:53.25] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 12:09:53.27] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 12:09:53.29] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 12:09:53.32] Running pre-clean stop sequence.
+[05-04-2026 12:11:21.31] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 12:11:22.55] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 12:11:22.65] Port 1433 is ready.
+[05-04-2026 12:11:22.68] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 12:11:22.69] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 12:22:08.09] ========== SERVICE START ==========
+[05-04-2026 12:22:08.11] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 12:22:08.12] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 12:22:08.15] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 12:22:08.16] Running pre-clean stop sequence.
+[05-04-2026 12:26:36.83] ========== SERVICE START ==========
+[05-04-2026 12:26:36.84] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 12:26:36.87] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 12:26:36.91] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 12:26:36.93] Running pre-clean stop sequence.
+[05-04-2026 12:28:08.04] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 12:28:09.38] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 12:28:09.46] Port 1433 is ready.
+[05-04-2026 12:28:09.48] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 12:28:09.50] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 12:42:17.30] ========== SERVICE START ==========
+[05-04-2026 12:42:17.32] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 12:42:17.33] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 12:42:17.36] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 12:42:17.38] Running pre-clean stop sequence.
+[05-04-2026 12:43:44.96] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 12:43:46.29] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 12:43:46.39] Port 1433 is ready.
+[05-04-2026 12:43:46.40] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 12:43:46.42] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 12:53:52.03] ========== SERVICE START ==========
+[05-04-2026 12:53:52.05] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 12:53:52.06] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 12:53:52.08] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 12:53:52.10] Running pre-clean stop sequence.
+[05-04-2026 12:55:17.84] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 12:55:19.12] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 12:55:19.20] Port 1433 is ready.
+[05-04-2026 12:55:19.22] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 12:55:19.23] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 14:21:43.17] ========== SERVICE START ==========
+[05-04-2026 14:21:43.18] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 14:21:43.18] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 14:21:43.20] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 14:21:43.21] Running pre-clean stop sequence.
+[05-04-2026 14:23:00.31] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 14:23:01.39] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 14:23:01.45] Port 1433 is ready.
+[05-04-2026 14:23:01.47] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 14:23:01.48] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 14:42:02.71] ========== SERVICE START ==========
+[05-04-2026 14:42:02.72] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 14:42:02.74] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 14:42:02.77] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 14:42:02.79] Running pre-clean stop sequence.
+[05-04-2026 14:43:34.24] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 14:43:35.66] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 14:43:35.74] Port 1433 is ready.
+[05-04-2026 14:43:35.76] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 14:43:35.78] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 14:50:13.96] ========== SERVICE START ==========
+[05-04-2026 14:50:13.98] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 14:50:14.00] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 14:50:14.03] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 14:50:14.04] Running pre-clean stop sequence.
+[05-04-2026 14:51:45.64] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 14:51:47.52] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 14:51:47.71] Port 1433 is ready.
+[05-04-2026 14:51:47.75] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 14:51:47.77] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 15:01:22.31] ========== SERVICE START ==========
+[05-04-2026 15:01:22.33] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 15:01:22.34] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 15:01:22.37] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 15:01:22.39] Running pre-clean stop sequence.
+[05-04-2026 15:02:53.45] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 15:02:54.87] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 15:02:54.98] Port 1433 is ready.
+[05-04-2026 15:02:55.00] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 15:02:55.02] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 15:22:23.29] ========== SERVICE START ==========
+[05-04-2026 15:22:23.30] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 15:22:23.32] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 15:22:23.35] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 15:22:23.36] Running pre-clean stop sequence.
+[05-04-2026 15:25:21.52] ========== SERVICE START ==========
+[05-04-2026 15:25:21.56] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 15:25:21.58] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 15:25:21.62] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 15:25:21.64] Running pre-clean stop sequence.
+[05-04-2026 15:26:54.89] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 15:26:56.19] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 15:26:56.26] Port 1433 is ready.
+[05-04-2026 15:26:56.28] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 15:26:56.30] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 15:46:43.49] ========== SERVICE START ==========
+[05-04-2026 15:46:43.50] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 15:46:43.51] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 15:46:43.52] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 15:46:43.53] Running pre-clean stop sequence.
+[05-04-2026 15:47:59.20] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 15:48:00.22] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 15:48:00.27] Port 1433 is ready.
+[05-04-2026 15:48:00.29] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 15:48:00.29] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 16:13:37.94] ========== SERVICE START ==========
+[05-04-2026 16:13:37.95] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 16:13:37.97] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 16:13:38.00] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 16:13:38.02] Running pre-clean stop sequence.
+[05-04-2026 16:15:07.98] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 16:15:09.45] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 16:15:09.53] Port 1433 is ready.
+[05-04-2026 16:15:09.55] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 16:15:09.57] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 16:44:30.66] ========== SERVICE START ==========
+[05-04-2026 16:44:30.68] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 16:44:30.69] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 16:44:30.72] SCHEDULER_CRON=0 0 17 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 16:44:30.74] Running pre-clean stop sequence.
+[05-04-2026 16:46:01.48] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 16:46:02.79] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 16:46:02.88] Port 1433 is ready.
+[05-04-2026 16:46:02.91] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 16:46:02.93] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 17:27:27.94] ========== SERVICE START ==========
+[05-04-2026 17:27:27.96] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 17:27:27.98] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 17:27:28.00] SCHEDULER_CRON=0 0 17 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 17:27:28.02] Running pre-clean stop sequence.
+[05-04-2026 17:30:33.58] ========== SERVICE START ==========
+[05-04-2026 17:30:33.60] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 17:30:33.61] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 17:30:33.64] SCHEDULER_CRON=0 0 17 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 17:30:33.65] Running pre-clean stop sequence.
+[05-04-2026 17:31:49.61] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 17:31:50.56] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 17:31:50.62] Port 1433 is ready.
+[05-04-2026 17:31:50.63] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 17:31:50.64] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 17:38:31.45] ========== SERVICE START ==========
+[05-04-2026 17:38:31.46] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 17:38:31.47] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 17:38:31.49] SCHEDULER_CRON=0 0 17 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 17:38:31.50] Running pre-clean stop sequence.
+[05-04-2026 17:39:52.19] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 17:39:53.20] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 17:39:53.26] Port 1433 is ready.
+[05-04-2026 17:39:53.27] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 17:39:53.28] Starting Tomcat in foreground (catalina.bat run).
+[05-04-2026 19:02:02.57] ========== SERVICE START ==========
+[05-04-2026 19:02:02.59] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[05-04-2026 19:02:02.60] HTTP_PORT=8080 DB_PORT=1433
+[05-04-2026 19:02:02.63] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[05-04-2026 19:02:02.65] Running pre-clean stop sequence.
+[05-04-2026 19:03:17.17] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[05-04-2026 19:03:18.36] Waiting for SQL Server listener on 1433 before Tomcat start.
+[05-04-2026 19:03:18.42] Port 1433 is ready.
+[05-04-2026 19:03:18.43] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[05-04-2026 19:03:18.44] Starting Tomcat in foreground (catalina.bat run).
+[06-04-2026  6:45:42.90] ========== SERVICE START ==========
+[06-04-2026  6:45:42.91] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[06-04-2026  6:45:42.92] HTTP_PORT=8080 DB_PORT=1433
+[06-04-2026  6:45:42.94] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[06-04-2026  6:45:42.95] Running pre-clean stop sequence.
+[06-04-2026  6:46:56.38] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[06-04-2026  6:46:57.36] Waiting for SQL Server listener on 1433 before Tomcat start.
+[06-04-2026  6:46:57.41] Port 1433 is ready.
+[06-04-2026  6:46:57.42] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[06-04-2026  6:46:57.43] Starting Tomcat in foreground (catalina.bat run).
+[06-04-2026  7:21:35.10] ========== SERVICE START ==========
+[06-04-2026  7:21:35.11] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[06-04-2026  7:21:35.12] HTTP_PORT=8080 DB_PORT=1433
+[06-04-2026  7:21:35.14] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[06-04-2026  7:21:35.15] Running pre-clean stop sequence.
+[06-04-2026  7:22:35.81] ========== SERVICE START ==========
+[06-04-2026  7:22:35.82] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[06-04-2026  7:22:35.83] HTTP_PORT=8080 DB_PORT=1433
+[06-04-2026  7:22:35.85] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[06-04-2026  7:22:35.86] Running pre-clean stop sequence.
+[06-04-2026  7:23:49.18] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[06-04-2026  7:23:50.15] Waiting for SQL Server listener on 1433 before Tomcat start.
+[06-04-2026  7:23:50.21] Port 1433 is ready.
+[06-04-2026  7:23:50.22] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[06-04-2026  7:23:50.23] Starting Tomcat in foreground (catalina.bat run).
+[06-04-2026 17:26:14.18] ========== SERVICE START ==========
+[06-04-2026 17:26:14.19] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[06-04-2026 17:26:14.20] HTTP_PORT=8080 DB_PORT=1433
+[06-04-2026 17:26:14.22] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[06-04-2026 17:26:14.23] Running pre-clean stop sequence.
+[06-04-2026 17:27:28.54] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[06-04-2026 17:27:29.52] Waiting for SQL Server listener on 1433 before Tomcat start.
+[06-04-2026 17:27:29.58] Port 1433 is ready.
+[06-04-2026 17:27:29.59] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[06-04-2026 17:27:29.60] Starting Tomcat in foreground (catalina.bat run).
+[06-04-2026 21:09:15.37] ========== SERVICE START ==========
+[06-04-2026 21:09:15.38] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[06-04-2026 21:09:15.39] HTTP_PORT=8080 DB_PORT=1433
+[06-04-2026 21:09:15.41] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[06-04-2026 21:09:15.42] Running pre-clean stop sequence.
+[06-04-2026 21:10:33.49] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[06-04-2026 21:10:34.56] Waiting for SQL Server listener on 1433 before Tomcat start.
+[06-04-2026 21:10:34.63] Port 1433 is ready.
+[06-04-2026 21:10:34.64] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[06-04-2026 21:10:34.65] Starting Tomcat in foreground (catalina.bat run).
+[06-04-2026 21:13:25.15] ========== SERVICE START ==========
+[06-04-2026 21:13:25.17] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[06-04-2026 21:13:25.18] HTTP_PORT=8080 DB_PORT=1433
+[06-04-2026 21:13:25.20] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[06-04-2026 21:13:25.21] Running pre-clean stop sequence.
+[06-04-2026 21:14:50.12] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[06-04-2026 21:14:51.22] Waiting for SQL Server listener on 1433 before Tomcat start.
+[06-04-2026 21:14:51.29] Port 1433 is ready.
+[06-04-2026 21:14:51.30] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[06-04-2026 21:14:51.31] Starting Tomcat in foreground (catalina.bat run).
+[07-04-2026  7:39:16.87] ========== SERVICE START ==========
+[07-04-2026  7:39:16.87] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[07-04-2026  7:39:16.88] HTTP_PORT=8080 DB_PORT=1433
+[07-04-2026  7:39:16.90] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[07-04-2026  7:39:16.91] Running pre-clean stop sequence.
+[07-04-2026  7:40:25.62] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[07-04-2026  7:40:26.50] Waiting for SQL Server listener on 1433 before Tomcat start.
+[07-04-2026  7:40:26.54] Port 1433 is ready.
+[07-04-2026  7:40:26.56] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[07-04-2026  7:40:26.57] Starting Tomcat in foreground (catalina.bat run).
+[07-04-2026  7:46:38.00] ========== SERVICE START ==========
+[07-04-2026  7:46:38.01] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[07-04-2026  7:46:38.02] HTTP_PORT=8080 DB_PORT=1433
+[07-04-2026  7:46:38.04] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[07-04-2026  7:46:38.05] Running pre-clean stop sequence.
+[07-04-2026 12:20:42.65] ========== SERVICE START ==========
+[07-04-2026 12:20:42.66] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[07-04-2026 12:20:42.67] HTTP_PORT=8080 DB_PORT=1433
+[07-04-2026 12:20:42.69] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[07-04-2026 12:20:42.70] Running pre-clean stop sequence.
+[07-04-2026 12:21:58.88] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[07-04-2026 12:21:59.88] Waiting for SQL Server listener on 1433 before Tomcat start.
+[07-04-2026 12:21:59.94] Port 1433 is ready.
+[07-04-2026 12:21:59.95] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[07-04-2026 12:21:59.96] Starting Tomcat in foreground (catalina.bat run).
+[07-04-2026 19:00:31.95] ========== SERVICE START ==========
+[07-04-2026 19:00:31.96] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[07-04-2026 19:00:31.97] HTTP_PORT=8080 DB_PORT=1433
+[07-04-2026 19:00:31.99] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[07-04-2026 19:00:31.99] Running pre-clean stop sequence.
+[07-04-2026 19:01:47.67] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[07-04-2026 19:01:48.68] Waiting for SQL Server listener on 1433 before Tomcat start.
+[07-04-2026 19:01:48.73] Port 1433 is ready.
+[07-04-2026 19:01:48.74] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[07-04-2026 19:01:48.75] Starting Tomcat in foreground (catalina.bat run).
+[08-04-2026 13:22:07.84] ========== SERVICE START ==========
+[08-04-2026 13:22:07.85] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 13:22:07.86] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 13:22:07.88] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 13:22:07.89] Running pre-clean stop sequence.
+[08-04-2026 13:23:38.39] ========== SERVICE START ==========
+[08-04-2026 13:23:38.40] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 13:23:38.41] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 13:23:38.43] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 13:23:38.44] Running pre-clean stop sequence.
+[08-04-2026 13:24:54.52] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[08-04-2026 13:24:55.58] Waiting for SQL Server listener on 1433 before Tomcat start.
+[08-04-2026 13:24:55.65] Port 1433 is ready.
+[08-04-2026 13:24:55.66] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[08-04-2026 13:24:55.67] Starting Tomcat in foreground (catalina.bat run).
+[08-04-2026 18:59:06.78] ========== SERVICE START ==========
+[08-04-2026 18:59:06.79] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 18:59:06.80] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 18:59:06.82] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 18:59:06.83] Running pre-clean stop sequence.
+[08-04-2026 19:00:27.98] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[08-04-2026 19:00:29.05] Waiting for SQL Server listener on 1433 before Tomcat start.
+[08-04-2026 19:00:29.12] Port 1433 is ready.
+[08-04-2026 19:00:29.13] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[08-04-2026 19:00:29.14] Starting Tomcat in foreground (catalina.bat run).
+[08-04-2026 21:24:41.56] ========== SERVICE START ==========
+[08-04-2026 21:24:41.58] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 21:24:41.59] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 21:24:41.60] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 21:24:41.61] Running pre-clean stop sequence.
+[08-04-2026 21:25:57.43] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[08-04-2026 21:25:58.45] Waiting for SQL Server listener on 1433 before Tomcat start.
+[08-04-2026 21:25:58.51] Port 1433 is ready.
+[08-04-2026 21:25:58.52] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[08-04-2026 21:25:58.53] Starting Tomcat in foreground (catalina.bat run).
+[08-04-2026 21:47:40.88] ========== SERVICE START ==========
+[08-04-2026 21:47:40.89] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 21:47:40.90] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 21:47:40.92] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 21:47:40.94] Running pre-clean stop sequence.
+[08-04-2026 21:48:54.26] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[08-04-2026 21:48:55.27] Waiting for SQL Server listener on 1433 before Tomcat start.
+[08-04-2026 21:48:55.33] Port 1433 is ready.
+[08-04-2026 21:48:55.34] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[08-04-2026 21:48:55.35] Starting Tomcat in foreground (catalina.bat run).
+[08-04-2026 22:13:34.66] ========== SERVICE START ==========
+[08-04-2026 22:13:34.67] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 22:13:34.68] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 22:13:34.71] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 22:13:34.72] Running pre-clean stop sequence.
+[08-04-2026 22:14:36.01] ========== SERVICE START ==========
+[08-04-2026 22:14:36.02] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 22:14:36.03] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 22:14:36.05] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 22:14:36.06] Running pre-clean stop sequence.
+[08-04-2026 22:15:52.27] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[08-04-2026 22:15:53.25] Waiting for SQL Server listener on 1433 before Tomcat start.
+[08-04-2026 22:15:53.31] Port 1433 is ready.
+[08-04-2026 22:15:53.32] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[08-04-2026 22:15:53.33] Starting Tomcat in foreground (catalina.bat run).
+[08-04-2026 22:17:46.67] ========== SERVICE START ==========
+[08-04-2026 22:17:46.68] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 22:17:46.69] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 22:17:46.71] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 22:17:46.72] Running pre-clean stop sequence.
+[08-04-2026 22:19:01.59] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[08-04-2026 22:19:02.55] Waiting for SQL Server listener on 1433 before Tomcat start.
+[08-04-2026 22:19:02.61] Port 1433 is ready.
+[08-04-2026 22:19:02.62] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[08-04-2026 22:19:02.62] Starting Tomcat in foreground (catalina.bat run).
+[08-04-2026 22:36:08.12] ========== SERVICE START ==========
+[08-04-2026 22:36:08.16] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 22:36:08.18] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 22:36:08.20] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 22:36:08.22] Running pre-clean stop sequence.
+[08-04-2026 22:37:39.57] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[08-04-2026 22:37:40.92] Waiting for SQL Server listener on 1433 before Tomcat start.
+[08-04-2026 22:37:41.00] Port 1433 is ready.
+[08-04-2026 22:37:41.02] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[08-04-2026 22:37:41.04] Starting Tomcat in foreground (catalina.bat run).
+[08-04-2026 22:40:52.75] ========== SERVICE START ==========
+[08-04-2026 22:40:52.76] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 22:40:52.77] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 22:40:52.79] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 22:40:52.80] Running pre-clean stop sequence.
+[08-04-2026 22:42:07.86] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[08-04-2026 22:42:08.92] Waiting for SQL Server listener on 1433 before Tomcat start.
+[08-04-2026 22:42:08.99] Port 1433 is ready.
+[08-04-2026 22:42:09.01] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[08-04-2026 22:42:09.02] Starting Tomcat in foreground (catalina.bat run).
+[08-04-2026 22:53:00.34] ========== SERVICE START ==========
+[08-04-2026 22:53:00.35] APP_DIR=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app
+[08-04-2026 22:53:00.36] HTTP_PORT=8080 DB_PORT=1433
+[08-04-2026 22:53:00.38] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 22:53:00.40] Running pre-clean stop sequence.
+[08-04-2026 22:54:18.91] WARN: HTTP port still busy after stop script. Forcing cleanup.
+[08-04-2026 22:54:19.98] Waiting for SQL Server listener on 1433 before Tomcat start.
+[08-04-2026 22:54:20.04] Port 1433 is ready.
+[08-04-2026 22:54:20.06] WARN: SQL port 1433 did not open in time. Continuing Tomcat start.
+[08-04-2026 22:54:20.07] Starting Tomcat in foreground (catalina.bat run).

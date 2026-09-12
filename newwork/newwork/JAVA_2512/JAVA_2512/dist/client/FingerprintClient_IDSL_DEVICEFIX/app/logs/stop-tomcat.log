@@ -1,0 +1,79 @@
+[04-04-2026 16:55:57.25] ========== STOP REQUEST ==========
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin"
+[04-04-2026 16:55:59.09] Tomcat shutdown port closed.
+[05-04-2026 18:03:07.41] ========== STOP REQUEST ==========
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin"
+[05-04-2026 18:03:09.19] Tomcat shutdown port closed.
+[05-04-2026 18:07:18.30] ========== STOP REQUEST ==========
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin"
+[05-04-2026 18:07:19.54] Tomcat shutdown port closed.
+[05-04-2026 18:07:19.60] Tomcat shutdown port closed.
+[05-04-2026 18:10:47.60] ========== STOP REQUEST ==========
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin"
+[05-04-2026 18:10:48.97] Tomcat shutdown port closed.
+[05-04-2026 18:11:17.52] ========== STOP REQUEST ==========
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin"
+05-Apr-2026 18:11:20.675 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:18005] (base port [18005] and offset [0]). Tomcat may not be running.
+05-Apr-2026 18:11:20.680 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Error stopping Catalina
+	java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+		at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+		at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+		at java.net.PlainSocketImpl.connect(Unknown Source)
+		at java.net.SocksSocketImpl.connect(Unknown Source)
+		at java.net.Socket.connect(Unknown Source)
+		at java.net.Socket.connect(Unknown Source)
+		at java.net.Socket.<init>(Unknown Source)
+		at java.net.Socket.<init>(Unknown Source)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:630)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:390)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:479)
+[05-04-2026 18:11:20.71] shutdown attempt 1 exit=
+[05-04-2026 18:11:20.79] Tomcat shutdown port closed.
+[05-04-2026 18:17:16.43] ========== STOP REQUEST ==========
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin"
+[05-04-2026 18:17:17.79] Tomcat shutdown port closed.
+[05-04-2026 18:22:39.14] ========== STOP REQUEST ==========
+Using CATALINA_BASE:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_HOME:   "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat"
+Using CATALINA_TMPDIR: "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp"
+Using JRE_HOME:        "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre"
+Using CLASSPATH:       "D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\bootstrap.jar;D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   "-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin"
+[05-04-2026 18:22:40.41] Tomcat shutdown port closed.

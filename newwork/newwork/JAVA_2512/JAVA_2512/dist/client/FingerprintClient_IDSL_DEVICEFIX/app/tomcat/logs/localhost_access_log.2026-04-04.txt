@@ -1,0 +1,6 @@
+127.0.0.1 - - [04/Apr/2026:16:54:07 +0530] "GET /demo/syncUsersStatusByUpdDateAllDevices?syncDate=2026-04-04 HTTP/1.1" 302 -
+127.0.0.1 - - [04/Apr/2026:16:54:07 +0530] "GET /demo/ HTTP/1.1" 302 -
+127.0.0.1 - - [04/Apr/2026:16:54:07 +0530] "GET /demo/schedulerDailyStatus?days=7&pn=1&pageSize=5 HTTP/1.1" 302 -
+127.0.0.1 - - [04/Apr/2026:16:54:08 +0530] "GET /demo/login HTTP/1.1" 200 2680
+127.0.0.1 - - [04/Apr/2026:16:54:08 +0530] "GET /demo/login HTTP/1.1" 200 2680
+127.0.0.1 - - [04/Apr/2026:16:54:08 +0530] "GET /demo/login HTTP/1.1" 200 2680

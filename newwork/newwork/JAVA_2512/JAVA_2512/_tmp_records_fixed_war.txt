@@ -1,0 +1,37 @@
+Compiled from "Records.java"
+public class com.timmy.entity.Records {
+  private int id;
+  private java.lang.Long enrollId;
+  private java.lang.String recordsTime;
+  private int mode;
+  private int intout;
+  private int event;
+  private java.lang.String userName;
+  private java.lang.String deviceSerialNum;
+  private double temperature;
+  private java.lang.String image;
+  private java.lang.String imageBase64;
+  public com.timmy.entity.Records();
+  public int getId();
+  public void setId(int);
+  public java.lang.Long getEnrollId();
+  public void setEnrollId(java.lang.Long);
+  public java.lang.String getRecordsTime();
+  public void setRecordsTime(java.lang.String);
+  public int getMode();
+  public void setMode(int);
+  public int getIntout();
+  public void setIntout(int);
+  public int getEvent();
+  public void setEvent(int);
+  public java.lang.String getUserName();
+  public void setUserName(java.lang.String);
+  public java.lang.String getDeviceSerialNum();
+  public void setDeviceSerialNum(java.lang.String);
+  public double getTemperature();
+  public void setTemperature(double);
+  public java.lang.String getImage();
+  public void setImage(java.lang.String);
+  public java.lang.String getImageBase64();
+  public void setImageBase64(java.lang.String);
+}

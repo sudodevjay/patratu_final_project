@@ -1,0 +1,1246 @@
+07-Apr-2026 07:37:38.824 INFO [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:37:39.053 INFO [Thread-13] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Apr-2026 07:37:39.087 INFO [Thread-13] org.apache.catalina.core.StandardWrapper.unload Waiting for [3] instance(s) to be deallocated for Servlet [dispatcher]
+07-Apr-2026 07:37:40.185 INFO [Thread-13] org.apache.catalina.core.StandardWrapper.unload Waiting for [2] instance(s) to be deallocated for Servlet [dispatcher]
+07-Apr-2026 07:37:41.290 INFO [Thread-13] org.apache.catalina.core.StandardWrapper.unload Waiting for [2] instance(s) to be deallocated for Servlet [dispatcher]
+07-Apr-2026 07:37:43.566 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [demo] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Apr-2026 07:37:43.568 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [demo] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Unknown Source)
+ java.util.TimerThread.run(Unknown Source)
+07-Apr-2026 07:37:43.568 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [demo] appears to have started a thread named [Thread-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(Unknown Source)
+ java.net.SocketInputStream.read(Unknown Source)
+ java.net.SocketInputStream.read(Unknown Source)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ sun.security.ssl.InputRecord.readFully(Unknown Source)
+ sun.security.ssl.InputRecord.read(Unknown Source)
+ sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+ sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+ sun.security.ssl.AppInputStream.read(Unknown Source)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ com.microsoft.sqlserver.jdbc.TDSChannel.read(IOBuffer.java:2184)
+ com.microsoft.sqlserver.jdbc.TDSReader.readPacket(IOBuffer.java:6975)
+ com.microsoft.sqlserver.jdbc.TDSCommand.startResponse(IOBuffer.java:8225)
+ com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:686)
+ com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:607)
+ com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7825)
+ com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:4828)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:321)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:253)
+ com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:584)
+ org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:169)
+ org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:59)
+ org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:73)
+ org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:60)
+ org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+ org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+ org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+ com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+ org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:60)
+ com.sun.proxy.$Proxy32.query(Unknown Source)
+ org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+ org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+ sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+ com.sun.proxy.$Proxy14.selectList(Unknown Source)
+ org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+ org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+ org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+ org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+ com.sun.proxy.$Proxy21.findPendingCommand(Unknown Source)
+ com.timmy.job.SendOrderJob.run(SendOrderJob.java:74)
+07-Apr-2026 07:37:43.570 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The thread [http-nio-8080-exec-4] of web application [demo] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(Unknown Source)
+ java.net.SocketInputStream.read(Unknown Source)
+ java.net.SocketInputStream.read(Unknown Source)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ sun.security.ssl.InputRecord.readFully(Unknown Source)
+ sun.security.ssl.InputRecord.read(Unknown Source)
+ sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+ sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+ sun.security.ssl.AppInputStream.read(Unknown Source)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ com.microsoft.sqlserver.jdbc.TDSChannel.read(IOBuffer.java:2184)
+ com.microsoft.sqlserver.jdbc.TDSReader.readPacket(IOBuffer.java:6975)
+ com.microsoft.sqlserver.jdbc.TDSCommand.startResponse(IOBuffer.java:8225)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.doExecuteStatement(SQLServerStatement.java:973)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd.doExecute(SQLServerStatement.java:869)
+ com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7825)
+ com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:4828)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:321)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:253)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeQuery(SQLServerStatement.java:790)
+ org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+ org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:450)
+ org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:400)
+ org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:466)
+ org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:476)
+ org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:516)
+ com.timmy.controller.AllController.loadDeviceSyncStateRows(AllController.java:1490)
+ com.timmy.controller.AllController.getDatabaseSyncStatusMsg(AllController.java:823)
+ com.timmy.controller.AllController.setUserToAllDeviceStatus(AllController.java:3330)
+ sun.reflect.GeneratedMethodAccessor115.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+ org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+ org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+ org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+ org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:690)
+ org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+ org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+ org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+ org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+ org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+ org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+ org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+ java.lang.Thread.run(Unknown Source)]
+07-Apr-2026 07:37:43.572 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The thread [http-nio-8080-exec-6] of web application [demo] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(Unknown Source)
+ java.net.SocketInputStream.read(Unknown Source)
+ java.net.SocketInputStream.read(Unknown Source)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ sun.security.ssl.InputRecord.readFully(Unknown Source)
+ sun.security.ssl.InputRecord.read(Unknown Source)
+ sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+ sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+ sun.security.ssl.AppInputStream.read(Unknown Source)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ com.microsoft.sqlserver.jdbc.TDSChannel.read(IOBuffer.java:2184)
+ com.microsoft.sqlserver.jdbc.TDSReader.readPacket(IOBuffer.java:6975)
+ com.microsoft.sqlserver.jdbc.TDSCommand.startResponse(IOBuffer.java:8225)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.doExecuteStatement(SQLServerStatement.java:973)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd.doExecute(SQLServerStatement.java:869)
+ com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7825)
+ com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:4828)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:321)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:253)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeQuery(SQLServerStatement.java:790)
+ org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+ org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:450)
+ org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:400)
+ org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:466)
+ org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:476)
+ org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:516)
+ com.timmy.controller.AllController.loadDeviceSyncStateRows(AllController.java:1490)
+ com.timmy.controller.AllController.getDatabaseSyncStatusMsg(AllController.java:823)
+ com.timmy.controller.AllController.setUserToAllDeviceStatus(AllController.java:3330)
+ sun.reflect.GeneratedMethodAccessor115.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+ org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+ org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+ org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+ org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:690)
+ org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+ org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+ org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+ org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+ org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+ org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+ org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+ java.lang.Thread.run(Unknown Source)]
+07-Apr-2026 07:37:43.574 SEVERE [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [demo] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@263056bc]) and a value of type [org.apache.ibatis.executor.ErrorContext] (value [
+### The error may exist in file [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo\WEB-INF\classes\com\timmy\mapper\MachineCommandMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select top (1000)           CONVERT(INT, DC_ID) AS id,     SLNO AS serial,     CASE       WHEN CMD_DESC LIKE 'JAVA:%' THEN SUBSTRING(CMD_DESC, 6, 255)       ELSE CMD_DESC     END AS name,     CAST(DC_CMD AS NVARCHAR(MAX)) AS content,     ISNULL(CASE WHEN ISNUMERIC(DC_RES) = 1 THEN CONVERT(INT, DC_RES) ELSE NULL END, 0) AS status,     ISNULL(CONVERT(INT, IS_DEL_EXECUTED), 0) AS send_status,     ISNULL(CONVERT(INT, REF_ID), 0) AS err_count,     DC_EXECDATE AS run_time,     DC_DATE AS gmt_crate,     ISNULL(DC_cmd_date, DC_DATE) AS gmt_modified         from DEVICECMD WITH (READUNCOMMITTED)     where ISNULL(CASE WHEN ISNUMERIC(DC_RES) = 1 THEN CONVERT(INT, DC_RES) ELSE NULL END, 0) = 0       and ISNULL(CONVERT(INT, IS_DEL_EXECUTED), 0) = ?       and SLNO = ?       and ISNULL(CONVERT(INT, REF_ID), 0) != 3       and CMD_DESC like 'JAVA:%'     order by DC_ID]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Apr-2026 07:37:43.574 SEVERE [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [demo] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Locale context]) and a value of type [org.springframework.web.servlet.DispatcherServlet$1] (value [org.springframework.web.servlet.DispatcherServlet$1@587a1c18]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Apr-2026 07:37:43.574 SEVERE [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [demo] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Request attributes]) and a value of type [org.springframework.web.context.request.ServletRequestAttributes] (value [org.apache.catalina.connector.RequestFacade@5303672b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Apr-2026 07:37:43.576 SEVERE [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [demo] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Locale context]) and a value of type [org.springframework.web.servlet.DispatcherServlet$1] (value [org.springframework.web.servlet.DispatcherServlet$1@463b7091]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Apr-2026 07:37:43.576 SEVERE [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [demo] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Request attributes]) and a value of type [org.springframework.web.context.request.ServletRequestAttributes] (value [org.apache.catalina.connector.RequestFacade@621a5b5c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Apr-2026 07:37:43.594 INFO [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:37:43.647 INFO [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.log4j.spi.ThrowableInformation]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.log4j.spi.ThrowableInformation]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1370)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1359)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1193)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1160)
+		at org.apache.log4j.spi.LoggingEvent.<init>(LoggingEvent.java:165)
+		at org.apache.log4j.Category.forcedLog(Category.java:391)
+		at org.apache.log4j.Category.log(Category.java:856)
+		at org.slf4j.impl.Log4jLoggerAdapter.warn(Log4jLoggerAdapter.java:464)
+		at com.timmy.datasource.SqlServerAwareDataSource.logConnectionBorrowFailure(SqlServerAwareDataSource.java:70)
+		at com.timmy.datasource.SqlServerAwareDataSource.getConnection(SqlServerAwareDataSource.java:35)
+		at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+		at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+		at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:81)
+		at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+		at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279)
+		at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72)
+		at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+		at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+		at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+		at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+		at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+		at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:60)
+		at com.sun.proxy.$Proxy32.query(Unknown Source)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+		at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+		at com.sun.proxy.$Proxy14.selectList(Unknown Source)
+		at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+		at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+		at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+		at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+		at com.sun.proxy.$Proxy21.findPendingCommand(Unknown Source)
+		at com.timmy.job.SendOrderJob.run(SendOrderJob.java:82)
+07-Apr-2026 07:37:43.649 INFO [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.ibatis.reflection.ExceptionUtil]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.ibatis.reflection.ExceptionUtil]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1370)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1359)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1193)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1160)
+		at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:366)
+		at com.sun.proxy.$Proxy14.selectList(Unknown Source)
+		at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+		at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+		at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+		at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+		at com.sun.proxy.$Proxy21.findPendingCommand(Unknown Source)
+		at com.timmy.job.SendOrderJob.run(SendOrderJob.java:82)
+07-Apr-2026 07:37:44.559 INFO [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com/timmy/mapper/]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com/timmy/mapper/]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1370)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:994)
+		at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:175)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:414)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:343)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:282)
+		at org.springframework.context.support.AbstractApplicationContext.getResources(AbstractApplicationContext.java:1170)
+		at org.springframework.core.io.support.ResourceArrayPropertyEditor.setAsText(ResourceArrayPropertyEditor.java:136)
+		at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:430)
+		at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:403)
+		at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:181)
+		at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:459)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:511)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:505)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1502)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1461)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1197)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:165)
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:87)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:333)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:335)
+		at org.springframework.web.servlet.FrameworkServlet.publishRequestHandledEvent(FrameworkServlet.java:1061)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:996)
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Unknown Source)
+07-Apr-2026 07:37:44.561 INFO [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.beans.PropertyChangeEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.beans.PropertyChangeEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1370)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1359)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1193)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1160)
+		at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:472)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:511)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:505)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1502)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1461)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1197)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:165)
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:87)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:333)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:335)
+		at org.springframework.web.servlet.FrameworkServlet.publishRequestHandledEvent(FrameworkServlet.java:1061)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:996)
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Unknown Source)
+07-Apr-2026 07:37:47.424 INFO [http-nio-8080-exec-6] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com/timmy/mapper/]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com/timmy/mapper/]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1370)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:994)
+		at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:175)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:414)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:343)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:282)
+		at org.springframework.context.support.AbstractApplicationContext.getResources(AbstractApplicationContext.java:1170)
+		at org.springframework.core.io.support.ResourceArrayPropertyEditor.setAsText(ResourceArrayPropertyEditor.java:136)
+		at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:430)
+		at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:403)
+		at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:181)
+		at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:459)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:511)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:505)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1502)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1461)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1197)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:165)
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:87)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:333)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:335)
+		at org.springframework.web.servlet.FrameworkServlet.publishRequestHandledEvent(FrameworkServlet.java:1061)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:996)
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Unknown Source)
+07-Apr-2026 07:37:47.428 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:40:28.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Apr-2026 07:40:28.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Apr-2026 07:40:28.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Apr-2026 07:40:28.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Apr-2026 07:40:28.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Apr-2026 07:40:28.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Apr-2026 07:40:28.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\jre
+07-Apr-2026 07:40:28.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+07-Apr-2026 07:40:28.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Apr-2026 07:40:28.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:40:28.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:40:28.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+07-Apr-2026 07:40:28.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Apr-2026 07:40:28.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 07:40:28.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 07:40:28.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Apr-2026 07:40:28.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Apr-2026 07:40:28.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Apr-2026 07:40:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 07:40:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 07:40:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Apr-2026 07:40:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:40:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:40:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+07-Apr-2026 07:40:28.296 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Apr-2026 07:40:28.296 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Apr-2026 07:40:28.296 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Apr-2026 07:40:28.308 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Apr-2026 07:40:28.812 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:40:28.836 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1094] milliseconds
+07-Apr-2026 07:40:28.871 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Apr-2026 07:40:28.871 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Apr-2026 07:40:28.891 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war]
+07-Apr-2026 07:40:32.863 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Apr-2026 07:40:39.931 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war] has finished in [11,038] ms
+07-Apr-2026 07:40:39.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs]
+07-Apr-2026 07:40:39.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs] has finished in [53] ms
+07-Apr-2026 07:40:39.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples]
+07-Apr-2026 07:40:41.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples] has finished in [1,091] ms
+07-Apr-2026 07:40:41.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager]
+07-Apr-2026 07:40:41.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager] has finished in [166] ms
+07-Apr-2026 07:40:41.244 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager]
+07-Apr-2026 07:40:41.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager] has finished in [115] ms
+07-Apr-2026 07:40:41.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT]
+07-Apr-2026 07:40:41.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT] has finished in [60] ms
+07-Apr-2026 07:40:41.428 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:40:41.469 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12632] milliseconds
+07-Apr-2026 07:43:00.101 INFO [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:43:00.235 INFO [Thread-13] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Apr-2026 07:43:00.302 INFO [Thread-13] org.apache.catalina.core.StandardWrapper.unload Waiting for [4] instance(s) to be deallocated for Servlet [dispatcher]
+07-Apr-2026 07:43:01.398 INFO [Thread-13] org.apache.catalina.core.StandardWrapper.unload Waiting for [4] instance(s) to be deallocated for Servlet [dispatcher]
+07-Apr-2026 07:43:02.503 INFO [Thread-13] org.apache.catalina.core.StandardWrapper.unload Waiting for [3] instance(s) to be deallocated for Servlet [dispatcher]
+07-Apr-2026 07:43:05.631 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [demo] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Apr-2026 07:43:05.631 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [demo] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Unknown Source)
+ java.util.TimerThread.run(Unknown Source)
+07-Apr-2026 07:43:05.631 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The thread [http-nio-8080-exec-3] of web application [demo] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(Unknown Source)
+ java.net.SocketInputStream.read(Unknown Source)
+ java.net.SocketInputStream.read(Unknown Source)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ sun.security.ssl.InputRecord.readFully(Unknown Source)
+ sun.security.ssl.InputRecord.read(Unknown Source)
+ sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+ sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+ sun.security.ssl.AppInputStream.read(Unknown Source)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ com.microsoft.sqlserver.jdbc.TDSChannel.read(IOBuffer.java:2184)
+ com.microsoft.sqlserver.jdbc.TDSReader.readPacket(IOBuffer.java:6975)
+ com.microsoft.sqlserver.jdbc.TDSCommand.startResponse(IOBuffer.java:8225)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.doExecuteStatement(SQLServerStatement.java:973)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd.doExecute(SQLServerStatement.java:869)
+ com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7825)
+ com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:4828)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:321)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:253)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeQuery(SQLServerStatement.java:790)
+ org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+ org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:450)
+ org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:400)
+ org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:466)
+ org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:476)
+ org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:516)
+ com.timmy.controller.AllController.loadDeviceSyncStateRows(AllController.java:1490)
+ com.timmy.controller.AllController.getDatabaseSyncStatusMsg(AllController.java:823)
+ com.timmy.controller.AllController.setUserToAllDeviceStatus(AllController.java:3330)
+ sun.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+ org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+ org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+ org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+ org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:690)
+ org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+ org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+ org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+ org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+ org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+ org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+ org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+ java.lang.Thread.run(Unknown Source)]
+07-Apr-2026 07:43:05.633 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The thread [http-nio-8080-exec-5] of web application [demo] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(Unknown Source)
+ java.net.SocketInputStream.read(Unknown Source)
+ java.net.SocketInputStream.read(Unknown Source)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ sun.security.ssl.InputRecord.readFully(Unknown Source)
+ sun.security.ssl.InputRecord.read(Unknown Source)
+ sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+ sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+ sun.security.ssl.AppInputStream.read(Unknown Source)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.readInternal(IOBuffer.java:1221)
+ com.microsoft.sqlserver.jdbc.TDSChannel$ProxyInputStream.read(IOBuffer.java:1207)
+ com.microsoft.sqlserver.jdbc.TDSChannel.read(IOBuffer.java:2184)
+ com.microsoft.sqlserver.jdbc.TDSReader.readPacket(IOBuffer.java:6975)
+ com.microsoft.sqlserver.jdbc.TDSCommand.startResponse(IOBuffer.java:8225)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.doExecuteStatement(SQLServerStatement.java:973)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd.doExecute(SQLServerStatement.java:869)
+ com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7825)
+ com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:4828)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:321)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:253)
+ com.microsoft.sqlserver.jdbc.SQLServerStatement.executeQuery(SQLServerStatement.java:790)
+ org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+ org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:450)
+ org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:400)
+ org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:466)
+ org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:476)
+ org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:516)
+ com.timmy.controller.AllController.loadDeviceSyncStateRows(AllController.java:1490)
+ com.timmy.controller.AllController.getDatabaseSyncStatusMsg(AllController.java:823)
+ com.timmy.controller.AllController.setUserToAllDeviceStatus(AllController.java:3330)
+ sun.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+ org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+ org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+ org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+ org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:690)
+ org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+ org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+ org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+ org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+ org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+ org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+ org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+ java.lang.Thread.run(Unknown Source)]
+07-Apr-2026 07:43:05.633 SEVERE [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [demo] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Locale context]) and a value of type [org.springframework.web.servlet.DispatcherServlet$1] (value [org.springframework.web.servlet.DispatcherServlet$1@7dcc2c7f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Apr-2026 07:43:05.633 SEVERE [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [demo] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Request attributes]) and a value of type [org.springframework.web.context.request.ServletRequestAttributes] (value [org.apache.catalina.connector.RequestFacade@7337b3d4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Apr-2026 07:43:05.635 SEVERE [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [demo] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Locale context]) and a value of type [org.springframework.web.servlet.DispatcherServlet$1] (value [org.springframework.web.servlet.DispatcherServlet$1@2cab4180]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Apr-2026 07:43:05.635 SEVERE [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [demo] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Request attributes]) and a value of type [org.springframework.web.context.request.ServletRequestAttributes] (value [org.apache.catalina.connector.RequestFacade@1c0aa0d1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Apr-2026 07:43:05.647 INFO [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:43:07.651 INFO [http-nio-8080-exec-5] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.springframework.web.servlet.ModelAndViewDefiningException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.springframework.web.servlet.ModelAndViewDefiningException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1370)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1359)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1193)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1160)
+		at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:999)
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Unknown Source)
+07-Apr-2026 07:43:07.657 INFO [http-nio-8080-exec-5] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com/timmy/mapper/]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com/timmy/mapper/]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1370)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:994)
+		at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:175)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:414)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:343)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:282)
+		at org.springframework.context.support.AbstractApplicationContext.getResources(AbstractApplicationContext.java:1170)
+		at org.springframework.core.io.support.ResourceArrayPropertyEditor.setAsText(ResourceArrayPropertyEditor.java:136)
+		at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:430)
+		at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:403)
+		at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:181)
+		at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:459)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:511)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:505)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1502)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1461)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1197)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:165)
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:87)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:333)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:335)
+		at org.springframework.web.servlet.FrameworkServlet.publishRequestHandledEvent(FrameworkServlet.java:1061)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:996)
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Unknown Source)
+07-Apr-2026 07:43:07.659 INFO [http-nio-8080-exec-5] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.beans.PropertyChangeEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.beans.PropertyChangeEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1370)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1359)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1193)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1160)
+		at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:472)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:511)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:505)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1502)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1461)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1197)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:165)
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:87)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:333)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:335)
+		at org.springframework.web.servlet.FrameworkServlet.publishRequestHandledEvent(FrameworkServlet.java:1061)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:996)
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Unknown Source)
+07-Apr-2026 07:43:08.831 INFO [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com/timmy/mapper/]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com/timmy/mapper/]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1370)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:994)
+		at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:175)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:414)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:343)
+		at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:282)
+		at org.springframework.context.support.AbstractApplicationContext.getResources(AbstractApplicationContext.java:1170)
+		at org.springframework.core.io.support.ResourceArrayPropertyEditor.setAsText(ResourceArrayPropertyEditor.java:136)
+		at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:430)
+		at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:403)
+		at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:181)
+		at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:459)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:511)
+		at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:505)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1502)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1461)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1197)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:165)
+		at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:87)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:333)
+		at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:335)
+		at org.springframework.web.servlet.FrameworkServlet.publishRequestHandledEvent(FrameworkServlet.java:1061)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:996)
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at com.timmy.util.AuthFilter.doFilter(AuthFilter.java:44)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:939)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1832)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Unknown Source)
+07-Apr-2026 07:43:08.840 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:43:59.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Apr-2026 07:43:59.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Apr-2026 07:43:59.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Apr-2026 07:43:59.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Apr-2026 07:43:59.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Apr-2026 07:43:59.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Apr-2026 07:43:59.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\jre
+07-Apr-2026 07:43:59.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+07-Apr-2026 07:43:59.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Apr-2026 07:43:59.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:43:59.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:43:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+07-Apr-2026 07:43:59.362 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Apr-2026 07:43:59.364 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Apr-2026 07:43:59.364 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Apr-2026 07:43:59.378 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Apr-2026 07:43:59.721 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:43:59.746 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [658] milliseconds
+07-Apr-2026 07:44:00.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Apr-2026 07:44:00.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Apr-2026 07:44:00.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Apr-2026 07:44:00.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Apr-2026 07:44:00.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Apr-2026 07:44:00.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Apr-2026 07:44:00.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\jre
+07-Apr-2026 07:44:00.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+07-Apr-2026 07:44:00.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Apr-2026 07:44:00.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:44:00.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:44:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+07-Apr-2026 07:44:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Apr-2026 07:44:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 07:44:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 07:44:00.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Apr-2026 07:44:00.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Apr-2026 07:44:00.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Apr-2026 07:44:00.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 07:44:00.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 07:44:00.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Apr-2026 07:44:00.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:44:00.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:44:00.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+07-Apr-2026 07:44:00.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Apr-2026 07:44:00.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Apr-2026 07:44:00.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Apr-2026 07:44:00.861 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Apr-2026 07:44:01.244 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:44:01.264 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [659] milliseconds
+07-Apr-2026 07:44:01.292 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Apr-2026 07:44:01.292 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Apr-2026 07:44:01.310 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war]
+07-Apr-2026 07:44:04.453 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Apr-2026 07:44:10.696 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war] has finished in [9,382] ms
+07-Apr-2026 07:44:10.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs]
+07-Apr-2026 07:44:10.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs] has finished in [64] ms
+07-Apr-2026 07:44:10.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples]
+07-Apr-2026 07:44:11.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples] has finished in [833] ms
+07-Apr-2026 07:44:11.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager]
+07-Apr-2026 07:44:11.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager] has finished in [67] ms
+07-Apr-2026 07:44:11.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager]
+07-Apr-2026 07:44:11.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager] has finished in [69] ms
+07-Apr-2026 07:44:11.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT]
+07-Apr-2026 07:44:11.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT] has finished in [59] ms
+07-Apr-2026 07:44:11.803 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:44:11.822 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10557] milliseconds
+07-Apr-2026 07:47:08.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Apr-2026 07:47:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Apr-2026 07:47:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Apr-2026 07:47:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Apr-2026 07:47:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Apr-2026 07:47:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Apr-2026 07:47:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\jre
+07-Apr-2026 07:47:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+07-Apr-2026 07:47:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Apr-2026 07:47:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:47:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:47:08.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+07-Apr-2026 07:47:08.414 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Apr-2026 07:47:08.416 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Apr-2026 07:47:08.416 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Apr-2026 07:47:08.430 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Apr-2026 07:47:08.818 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:47:08.848 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [662] milliseconds
+07-Apr-2026 07:47:10.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Apr-2026 07:47:10.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Apr-2026 07:47:10.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Apr-2026 07:47:10.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Apr-2026 07:47:10.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Apr-2026 07:47:10.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Apr-2026 07:47:10.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\jre
+07-Apr-2026 07:47:10.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+07-Apr-2026 07:47:10.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Apr-2026 07:47:10.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:47:10.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:47:10.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+07-Apr-2026 07:47:10.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Apr-2026 07:47:10.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 07:47:10.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 07:47:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Apr-2026 07:47:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Apr-2026 07:47:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Apr-2026 07:47:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 07:47:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 07:47:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Apr-2026 07:47:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:47:10.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 07:47:10.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+07-Apr-2026 07:47:10.049 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Apr-2026 07:47:10.050 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Apr-2026 07:47:10.050 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Apr-2026 07:47:10.065 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Apr-2026 07:47:10.409 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:47:10.433 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [610] milliseconds
+07-Apr-2026 07:47:10.465 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Apr-2026 07:47:10.466 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Apr-2026 07:47:10.484 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war]
+07-Apr-2026 07:47:13.757 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Apr-2026 07:47:19.093 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war] has finished in [8,608] ms
+07-Apr-2026 07:47:19.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs]
+07-Apr-2026 07:47:19.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs] has finished in [38] ms
+07-Apr-2026 07:47:19.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples]
+07-Apr-2026 07:47:19.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples] has finished in [622] ms
+07-Apr-2026 07:47:19.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager]
+07-Apr-2026 07:47:19.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager] has finished in [53] ms
+07-Apr-2026 07:47:19.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager]
+07-Apr-2026 07:47:19.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager] has finished in [54] ms
+07-Apr-2026 07:47:19.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT]
+07-Apr-2026 07:47:19.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT] has finished in [44] ms
+07-Apr-2026 07:47:19.912 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 07:47:19.933 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9500] milliseconds
+07-Apr-2026 12:22:01.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Apr-2026 12:22:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Apr-2026 12:22:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Apr-2026 12:22:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Apr-2026 12:22:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Apr-2026 12:22:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Apr-2026 12:22:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\jre
+07-Apr-2026 12:22:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+07-Apr-2026 12:22:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Apr-2026 12:22:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 12:22:01.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 12:22:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+07-Apr-2026 12:22:01.543 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Apr-2026 12:22:01.543 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Apr-2026 12:22:01.543 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Apr-2026 12:22:01.558 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Apr-2026 12:22:01.963 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 12:22:01.984 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [799] milliseconds
+07-Apr-2026 12:22:02.016 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Apr-2026 12:22:02.016 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Apr-2026 12:22:02.033 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war]
+07-Apr-2026 12:22:05.568 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Apr-2026 12:22:11.216 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war] has finished in [9,181] ms
+07-Apr-2026 12:22:11.217 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs]
+07-Apr-2026 12:22:11.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs] has finished in [58] ms
+07-Apr-2026 12:22:11.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples]
+07-Apr-2026 12:22:12.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples] has finished in [811] ms
+07-Apr-2026 12:22:12.086 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager]
+07-Apr-2026 12:22:12.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager] has finished in [51] ms
+07-Apr-2026 12:22:12.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager]
+07-Apr-2026 12:22:12.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager] has finished in [55] ms
+07-Apr-2026 12:22:12.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT]
+07-Apr-2026 12:22:12.223 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT] has finished in [32] ms
+07-Apr-2026 12:22:12.228 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 12:22:12.244 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10258] milliseconds
+07-Apr-2026 18:41:44.882 INFO [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 18:41:45.057 INFO [Thread-13] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Apr-2026 18:41:45.372 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [demo] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Apr-2026 18:41:45.374 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [demo] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Unknown Source)
+ java.util.TimerThread.run(Unknown Source)
+07-Apr-2026 18:41:45.386 INFO [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 18:41:45.404 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 18:42:23.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Apr-2026 18:42:23.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Apr-2026 18:42:23.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Apr-2026 18:42:23.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Apr-2026 18:42:23.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Apr-2026 18:42:23.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Apr-2026 18:42:23.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\jre
+07-Apr-2026 18:42:23.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+07-Apr-2026 18:42:23.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Apr-2026 18:42:23.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 18:42:23.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 18:42:23.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+07-Apr-2026 18:42:23.179 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Apr-2026 18:42:23.179 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Apr-2026 18:42:23.179 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Apr-2026 18:42:23.208 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Apr-2026 18:42:23.537 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 18:42:23.557 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [669] milliseconds
+07-Apr-2026 18:42:24.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Apr-2026 18:42:24.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Apr-2026 18:42:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Apr-2026 18:42:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Apr-2026 18:42:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Apr-2026 18:42:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Apr-2026 18:42:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\jre
+07-Apr-2026 18:42:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+07-Apr-2026 18:42:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Apr-2026 18:42:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 18:42:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 18:42:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+07-Apr-2026 18:42:24.685 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Apr-2026 18:42:24.685 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Apr-2026 18:42:24.685 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Apr-2026 18:42:24.699 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Apr-2026 18:42:25.054 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 18:42:25.073 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [617] milliseconds
+07-Apr-2026 18:42:25.107 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Apr-2026 18:42:25.107 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Apr-2026 18:42:25.127 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war]
+07-Apr-2026 18:42:28.759 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Apr-2026 18:42:34.204 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war] has finished in [9,070] ms
+07-Apr-2026 18:42:34.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs]
+07-Apr-2026 18:42:34.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs] has finished in [53] ms
+07-Apr-2026 18:42:34.259 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples]
+07-Apr-2026 18:42:35.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples] has finished in [907] ms
+07-Apr-2026 18:42:35.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager]
+07-Apr-2026 18:42:35.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager] has finished in [47] ms
+07-Apr-2026 18:42:35.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager]
+07-Apr-2026 18:42:35.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager] has finished in [64] ms
+07-Apr-2026 18:42:35.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT]
+07-Apr-2026 18:42:35.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT] has finished in [35] ms
+07-Apr-2026 18:42:35.320 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 18:42:35.336 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10262] milliseconds
+07-Apr-2026 19:01:49.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Apr-2026 19:01:49.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Apr-2026 19:01:49.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Apr-2026 19:01:49.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Apr-2026 19:01:49.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Apr-2026 19:01:49.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Apr-2026 19:01:49.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\jre
+07-Apr-2026 19:01:49.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+07-Apr-2026 19:01:49.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Apr-2026 19:01:49.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 19:01:49.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 19:01:49.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\conf\logging.properties
+07-Apr-2026 19:01:49.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Apr-2026 19:01:49.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 19:01:49.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 19:01:49.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Apr-2026 19:01:49.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Apr-2026 19:01:49.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Apr-2026 19:01:49.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin
+07-Apr-2026 19:01:49.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsqlserver.auth.dll.path=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+07-Apr-2026 19:01:49.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Apr-2026 19:01:49.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 19:01:49.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+07-Apr-2026 19:01:49.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\temp
+07-Apr-2026 19:01:49.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Apr-2026 19:01:49.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Apr-2026 19:01:49.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Apr-2026 19:01:49.901 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Apr-2026 19:01:50.236 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 19:01:50.254 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [654] milliseconds
+07-Apr-2026 19:01:50.285 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Apr-2026 19:01:50.285 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Apr-2026 19:01:50.303 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war]
+07-Apr-2026 19:01:53.656 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Apr-2026 19:01:59.077 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\demo.war] has finished in [8,772] ms
+07-Apr-2026 19:01:59.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs]
+07-Apr-2026 19:01:59.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\docs] has finished in [43] ms
+07-Apr-2026 19:01:59.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples]
+07-Apr-2026 19:01:59.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\examples] has finished in [686] ms
+07-Apr-2026 19:01:59.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager]
+07-Apr-2026 19:01:59.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\host-manager] has finished in [39] ms
+07-Apr-2026 19:01:59.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager]
+07-Apr-2026 19:01:59.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\manager] has finished in [39] ms
+07-Apr-2026 19:01:59.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT]
+07-Apr-2026 19:01:59.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\housys\FingerprintClient_IDSL_DEVICEFIX03042026\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\webapps\ROOT] has finished in [29] ms
+07-Apr-2026 19:01:59.919 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Apr-2026 19:01:59.931 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9675] milliseconds

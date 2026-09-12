@@ -1,0 +1,24 @@
+[08-04-2026 21:56:41.44] ========== START REQUEST ==========
+[08-04-2026 21:56:41.48] JAVA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+[08-04-2026 21:56:41.49] CATALINA_HOME=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+[08-04-2026 21:56:41.51] JAVA_OPTS=-Djava.library.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\housys\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+[08-04-2026 21:56:41.52] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[08-04-2026 21:56:41.54] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+The process cannot access the file because it is being used by another process.
+[08-04-2026 21:56:43.84] startup.bat exit=0
+The process cannot access the file because it is being used by another process.
+[08-04-2026 21:56:57.24] WARN: Shutdown port 18015 not listening after startup. Check tomcat\\logs\\catalina*.log
+The process cannot access the file because it is being used by another process.
+[08-04-2026 21:56:57.36] HTTP port 8080 detected.
+[30-06-2026 12:13:00.38] ========== START REQUEST ==========
+[30-06-2026 12:13:00.40] JAVA_HOME=D:\patratu_fina_project\newwork\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\jre
+[30-06-2026 12:13:00.42] CATALINA_HOME=D:\patratu_fina_project\newwork\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat
+[30-06-2026 12:13:00.45] JAVA_OPTS=-Djava.library.path=D:\patratu_fina_project\newwork\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin -Dsqlserver.auth.dll.path=D:\patratu_fina_project\newwork\newwork\JAVA_2512\JAVA_2512\dist\client\FingerprintClient_IDSL_DEVICEFIX\app\tomcat\bin\mssql-jdbc_auth-13.2.1.x64.dll
+[30-06-2026 12:13:00.47] SCHEDULER_CRON=0 0 3 * * * SCHEDULER_ZONE=Asia/Kolkata
+[30-06-2026 12:13:00.49] HTTP_PORT=8080 SHUTDOWN_PORT=18015
+The process cannot access the file because it is being used by another process.
+[30-06-2026 12:13:10.98] startup.bat exit=0
+The process cannot access the file because it is being used by another process.
+[30-06-2026 12:13:24.70] WARN: Shutdown port 18015 not listening after startup. Check tomcat\\logs\\catalina*.log
+The process cannot access the file because it is being used by another process.
+[30-06-2026 12:13:24.81] HTTP port 8080 detected.

@@ -1,0 +1,1 @@
+time=2026-04-07 06:33:43.974, source=senduser, device=AXTI11107172, enrollid=399816, name=SOHEL KUMAR, admin=0, backupnum=50, record_size=81604, image_path=

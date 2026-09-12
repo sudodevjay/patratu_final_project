@@ -1,0 +1,1 @@
+time=2026-04-06 19:01:56.957, source=senduser, device=AXTI11107183, enrollid=1260355, name=DILIP , admin=0, backupnum=50, record_size=83540, image_path=
